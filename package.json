@@ -1,0 +1,41 @@
+{
+  "name": "@cnguy/bs-react-stripe-elements",
+  "version": "0.0.1",
+  "description": "Bindings for Stripe's react-stripe-elements",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnguy/bs-react-stripe-elements.git"
+  },
+  "keywords": [
+    "bucklescript",
+    "react",
+    "ui"
+  ],
+  "author": "cnguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnguy/bs-react-stripe-elements/issues"
+  },
+  "homepage": "https://github.com/cnguy/bs-react-stripe-elements#readme",
+  "files": [
+    "bsconfig.json"
+  ],
+  "devDependencies": {
+    "bs-platform": "^4.0.5",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-stripe-elements": "^2.0.1",
+    "reason-react": "^0.5.3"
+  }
+}
