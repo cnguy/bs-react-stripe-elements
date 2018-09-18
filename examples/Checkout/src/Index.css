@@ -1,0 +1,63 @@
+html {
+    background-color: #222227;
+    color: white;
+    font-family: "Hack";
+}
+
+.container {
+    max-width: 1024px;
+}
+
+.header {
+    float: right;
+}
+
+.new {
+    background-color: #F44336;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+.not-found {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.poll {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 400px;
+    transform: translate(-50%, -50%);
+}
+
+.poll__row-container {
+    padding: 0;
+    list-style: none;
+}
+
+.poll__question, .poll__row {
+    padding: 10px;
+    width: 100%;
+}
+
+.poll__question {
+    font-size: 1.5em;
+}
+
+.poll input[type=text] {
+    border: 0;
+    background: none;
+    color: white;
+}
+
+.poll input[type=text]:focus {
+    outline: none;
+}
+
+.poll__row__text {
+    padding-left: 10px;
+}

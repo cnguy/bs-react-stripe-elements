@@ -9,7 +9,7 @@ type createSourceArgs('a) = {.. "type": string} as 'a;
 
 [@bs.deriving abstract]
 type stripe;
-[@bs.deriving.abstract]
+[@bs.deriving abstract]
 type createTokenResponse = {token: string};
 [@bs.send]
 external createToken:

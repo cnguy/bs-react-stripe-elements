@@ -47,6 +47,8 @@ Add `Stripe.js` to your `index.html` file as well. Put it before your app's JS b
 * [Demo Site](https://bs-react-stripe-elements.surge.sh)
   * [Code for Demo Site](https://github.com/cnguy/bs-react-stripe-elements/blob/master/examples/Checkout)
 
+Note that these examples are not runnable. You would have to copy the files to your own React app to test them. For testing the bindings, I just constantly `yarn add <path-to-local-directory-of-bs-stripe-react-elements>` within a different web app to get the updated changes.
+
 This demo ideally will match [Stripe's own basic demo](https://github.com/stripe/react-stripe-elements/blob/master/demo/demo/index.js).
 
 ### Component Demos
