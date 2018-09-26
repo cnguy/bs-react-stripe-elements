@@ -51,12 +51,13 @@ let makeStyle = (~base=?, ~invalid=?, ()) => style(~base, ~invalid);
 type jsProps = {style: option(style)};
 
 let component = ReasonReact.statelessComponent("CardElement");
-let make = (~style: option(style)=?, children) =>
+
+let make = (~style: option(style)=?, _children) =>
   ReasonReact.wrapJsForReason(
     ~reactClass=
       StripeElements_Components.cardElementGet(
         StripeElements_Components.default,
       ),
     ~props=jsProps(~style),
-    children,
+    (),
   );

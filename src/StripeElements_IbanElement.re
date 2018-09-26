@@ -7,12 +7,13 @@ type jsProps = {
 };
 
 let component = ReasonReact.statelessComponent("IbanElement");
-let make = (~supportedCountries, ~placeholderCountry=?, children) =>
+
+let make = (~supportedCountries, ~placeholderCountry=?, _children) =>
   ReasonReact.wrapJsForReason(
     ~reactClass=
       StripeElements_Components.ibanElementGet(
         StripeElements_Components.default,
       ),
     ~props=jsProps(~supportedCountries, ~placeholderCountry),
-    children,
+    (),
   );
