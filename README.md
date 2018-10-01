@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Minimal, hand-generated BuckleScript + ReasonReact bindings for [react-stripe-elements](https://github.com/stripe/react-stripe-elements).
+Minimal, hand-generated BuckleScript + ReasonReact bindings for [react-stripe-elements](https://github.com/stripe/react-stripe-elements). The bindings are vanilla, which means it'll mostly be 1-to-1 bindings. However, the bindings will help you out by for example removing stringly-typed code wherever possible.
 
 **State**: *experimental, but active. unpublished and requires polishing*
 
