@@ -56,6 +56,24 @@ Add `Stripe.js` to your `index.html` file as well. Put it before your app's JS b
 </html>
 ```
 
+## Entry Point
+
+```reason
+let component = ReasonReact.statelessComponent("App");
+
+let make = _children => {
+  ...component,
+  render: _self =>
+    <div>
+      StripeElements.(
+        <StripeProvider apiKey="pk_abcdefghijklmnoprstuvwxyz">
+          ...<CheckoutForm />
+        </StripeProvider>
+      )
+    </div>,
+};
+```
+
 ## Changes
 
 Currently unpublished. `master` branch will be the "releases" while the `development` branch will be where we'll be working.
